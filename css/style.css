@@ -60,7 +60,46 @@
 .bag{
     background-color: #FF589B;
 }
-.shoes{
+.juta{
     background-color: #4289FF;
 }
 /*category ends*/
+.shop{
+    padding: 80px 0px;
+    background: #F4F4F4;
+}
+/*shoes starts*/
+.shoes-top{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes-top a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #FF9D00;
+    font-weight: 600;
+}
+.shoe-display{
+    padding: 30px 0px;
+}
+.card{
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px !important;
+    border: none !important; 
+}
+.card p{
+    margin: 20px 0px;
+}
+.card .dolla{
+    margin-bottom: 20px;
+}
+.card .btn{
+    padding: 10px 22px;
+    background: black;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/*shoes ends*/
